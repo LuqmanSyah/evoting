@@ -42,7 +42,7 @@
                         @php
                         $year = date('Y');
                         @endphp
-                        <p>{{ $year }} &copy; SMK Pertiwi</p>
+                        <p>{{ $year }} &copy; SMKN 5 KAB. TANGERANG</p>
                     </div>
                 </div>
             </footer>

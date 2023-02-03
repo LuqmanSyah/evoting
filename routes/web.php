@@ -52,6 +52,7 @@ Route::prefix('admin')->name('admin.')->middleware('role:admin')->group( functio
 
     Route::get('/display', [DisplayController::class, 'display'])->name('display');
 
+
     //crud user
     Route::get('/informasi-biodata', [InformasibiodataController::class, 'index'])->name('biodata.index');
 

@@ -132,6 +132,8 @@ class EditkandidatController extends Controller
         $candidate->wakil = $request->wakil;
         $candidate->kelas_wakil = $request->kelas_wakil;
         $candidate->jurusan_wakil = $request->jurusan_wakil;
+        $candidate->visi = $request->visi;
+        $candidate->misi = $request->misi;
         $candidate->update();
 
         return redirect(route('admin.kandidat.index'))->with('success', 'Data telah di Perbarui!.');

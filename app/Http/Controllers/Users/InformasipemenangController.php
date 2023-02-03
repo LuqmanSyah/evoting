@@ -25,5 +25,6 @@ class InformasipemenangController extends Controller
         } else{
             return view('user.informasipemenang', compact('candidate', 'users', 'votes', 'winner', 'count'));
         }
+
     }
 }

@@ -39,7 +39,7 @@
 
                     <div class="card-body">
                         <h6>Visi</h6>
-                            <p class="mt-3">{{$candidate->visi}}</p>
+                            <p class="mt-3">{!!$candidate->visi!!}</p>
 
                         <!-- Button trigger modal -->
                         <p type="button" class="btn btn-light sm-3" data-bs-toggle="modal" data-bs-target="#kandidat{{ $candidate->id }}" data-id="{{ $candidate->id }}">

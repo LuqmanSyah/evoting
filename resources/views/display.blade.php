@@ -37,7 +37,7 @@
                         </div>
                         <div class="card-body">
                             <h6>Visi</h6>
-                                    <p class="mt-3">{{$candidate->visi}}</p>
+                                    <p class="mt-3">{!! $candidate->visi !!}</p>
                             <div class="row">
                                 <div class="col">
                                     <div class="suara">
@@ -57,7 +57,7 @@
                             </div>
 
                             <div class="progress">
-                            <div class="progress-bar" id="progress_{{ $candidate->id}}" role="progressbar" style="width: {{ $suara/$users->count()*100 }}%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar" id="progress_{!! $candidate->id!!}" role="progressbar" style="width: {{ $suara/$users->count()*100 }}%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
 
                     </div>
